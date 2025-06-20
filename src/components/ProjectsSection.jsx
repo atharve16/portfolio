@@ -6,7 +6,7 @@ const projects = [
     title: "MediMate",
     description:
       "Built a full-stack health app with chat, video consultations, prescription generator, and JWT security using MERN stack, Socket.io, and WebRTC.",
-    image: "/projects/project1.jpg",
+    image: new URL(`/projects/project1.jpg`, import.meta.url).href,
     tags: ["MERN", "JWT", "WebRTC", "Mongo DB"],
     demoUrl: "#",
     githubUrl: "https://github.com/atharve16/MediMate",
@@ -16,7 +16,7 @@ const projects = [
     title: "Talksy – An AI Chatbot",
     description:
       "Built a MERN stack chatbot using React (Vite) & Gemini API, secured with JWT, deployed on Vercel/Render, and integrated CI/CD.",
-    image: "/projects/project2.png",
+    image: new URL(`/projects/project2.jpg`, import.meta.url).href,
     tags: ["MERN", "Gemini API", "nodeMailer"],
     demoUrl: "https://talksy-zeta.vercel.app/",
     githubUrl: "https://github.com/atharve16/Talksy",
@@ -26,7 +26,7 @@ const projects = [
     title: "EduVise",
     description:
       "A Smart Classroom Management Software aimed at enhancing the learning environment by streamlining classroom management and academic interactions.",
-    image: "/projects/project3.jpg",
+    image: new URL(`/projects/project3.jpg`, import.meta.url).href,
     tags: ["MERN", "CI/CD"],
     demoUrl: "https://eduvise.vercel.app/",
     githubUrl: "https://github.com/atharve16/EduVise",
@@ -36,7 +36,7 @@ const projects = [
     title: "Blogify",
     description:
       "A Blogs App alowing users to view, create, update and remove your blogs",
-    image: "/projects/project4.jpg",
+    image: new URL(`/projects/project4.jpg`, import.meta.url).href,
     tags: ["React.js", "Spring Boot", "Maven"],
     demoUrl: "https://blogify-five-murex.vercel.app/",
     githubUrl: "https://github.com/atharve16/Blog-App",
@@ -46,7 +46,7 @@ const projects = [
     title: "SevenStake",
     description:
       "A dice game allowing players to bet on '7 Up', '7 Down', or 'Lucky 7' with starting points of 5000.",
-    image: "/projects/project5.jpg",
+    image: new URL(`/projects/project5.jpg`, import.meta.url).href,
     tags: ["MERN", "Memorization"],
     demoUrl: "#",
     githubUrl: "https://github.com/atharve16/SevenStake",
@@ -56,11 +56,11 @@ const projects = [
     title: "Online Banking System",
     description:
       "Built a Java-based Online Banking System with MySQL, featuring account management, transactions, loans, secure authentication, and optimized database connectivity.",
-    image: "/projects/project6.jpg",
+    image: new URL(`/projects/project6.jpg`, import.meta.url).href,
     tags: ["JAVA", "JDBC", "MY-SQL"],
     demoUrl: "#",
     githubUrl: "https://github.com/atharve16/My-Bank",
-  }
+  },
 ];
 
 export const ProjectsSection = () => {
@@ -72,8 +72,8 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          These are some of the real-world applications and platforms I've built,
-          integrating modern tech stacks and solving meaningful problems.
+          These are some of the real-world applications and platforms I've
+          built, integrating modern tech stacks and solving meaningful problems.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
