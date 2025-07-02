@@ -16,7 +16,7 @@ const projects = [
     title: "Talksy – An AI Chatbot",
     description:
       "Built a MERN stack chatbot using React (Vite) & Gemini API, secured with JWT, deployed on Vercel/Render, and integrated CI/CD.",
-    image: new URL(`/projects/project2.jpg`, import.meta.url).href,
+    image: new URL(`/projects/project2.png`, import.meta.url).href,
     tags: ["MERN", "Gemini API", "nodeMailer"],
     demoUrl: "https://talksy-zeta.vercel.app/",
     githubUrl: "https://github.com/atharve16/Talksy",
@@ -38,8 +38,8 @@ const projects = [
       "A Blogs App alowing users to view, create, update and remove your blogs",
     image: new URL(`/projects/project4.jpg`, import.meta.url).href,
     tags: ["React.js", "Spring Boot", "Maven"],
-    demoUrl: "https://blogify-five-murex.vercel.app/",
-    githubUrl: "https://github.com/atharve16/Blog-App",
+    demoUrl: "https://blogify-steel-three.vercel.app/",
+    githubUrl: "https://github.com/atharve16/Blogify",
   },
   {
     id: 5,
