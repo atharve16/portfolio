@@ -49,7 +49,7 @@ export const AboutSection = () => {
                 Get In Touch
               </a>
               <a
-                href="https://drive.google.com/file/d/1KoW2IaWfB4w6bIdNWV3sewq4deUIPLBU/view?usp=sharing"
+                href="https://drive.google.com/file/d/1YCPIoeISq5LvDwkqepJt25USHRZc7u5u/view?usp=drive_link"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 font-medium transition-all duration-300"
                 download
               >
