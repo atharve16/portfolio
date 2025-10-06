@@ -124,7 +124,7 @@ export const HeroSection = () => {
           className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center mb-12 sm:mb-16"
         >
           <motion.a
-            href="http://localhost:5173/portfolio#experience"
+            href="#experience"
             whileHover={{ scale: 1.05, boxShadow: "0 15px 30px rgba(59,130,246,0.3)" }}
             whileTap={{ scale: 0.95 }}
             className="group relative px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full text-white font-semibold overflow-hidden"
@@ -139,7 +139,7 @@ export const HeroSection = () => {
           </motion.a>
 
           <motion.a
-            href="http://localhost:5173/portfolio#contact"
+            href="#contact"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="px-6 sm:px-8 py-3 sm:py-4 border-2 border-blue-400 text-blue-400 rounded-full font-semibold hover:bg-blue-400 hover:text-blue-900 transition-colors duration-300"
